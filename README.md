@@ -28,21 +28,29 @@ Baseado na Metodologia Ágil SCRUM e no ciclo CDIO (Conceber, Desenvolver, Imple
 O sistema contempla as seguintes funcionalidades principais:
 
 - Cadastro e gerenciamento de estações meteorológicas e sensores;
-- Recepção e armazenamento de dados meteorológicos coletados automaticamente pelas estações;
+- Recepção e armazenamento de dados meteorológicos coletados pelas estações;
 - Visualização de dados por meio de dashboards interativos;
 - Geração automática de alertas com base em condições meteorológicas específicas;
-- Controle de acesso com diferentes níveis de usuário;
+- Controle de acesso com diferentes níveis de usuário (administrador e usuário comum);
 - Desenvolvimento de um datalogger para registro dos dados na estação meteorológica;
 - Construção física de uma estação meteorológica com os componentes necessários;
-- Desenvolvimento de um guia explicativo sobre o significado de cada parâmetro meteorológico medido.
+- Desenvolvimento de um guia explicativo sobre o significado de cada parâmetro meteorológico medido;
+- Desenvolvimento de relatórios que proporcionem insights sobre os dados coletados.
  
 <br>
 
 <span id="backlog&userstories">
 
 ## 🎯 Backlog do Produto & User Stories
-**:link: Clique no link abaixo para visualizar o backlog do produto:**  
-> [Backlog do Produto]()
+
+| ID | Prioridade | User Story | Sprint |
+|----|------------|------------|--------|
+| US1 | Alta | Eu como **ADMINISTRADOR**, desejo realizar login na área administrativa do sistema, para acessar e gerenciar as funcionalidades administrativas da plataforma, garantindo que apenas usuários autorizados possam realizar alterações no sistema. | 1 |
+| US2 | Alta | Eu como **ADMINISTRADOR**, desejo cadastrar estações meteorológicas, para registrar os locais de coleta de dados climáticos. | 1 |
+| US3 | Alta | Eu como **ADMINISTRADOR**, desejo configurar parâmetros meteorológicos e seus limites, para definir quais variáveis ambientais serão monitoradas e identificar condições climáticas de risco. | 1 |
+| US4 | Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar dashboards com dados organizados por parâmetro e apresentados em gráficos e cards, para analisar variações de temperatura, umidade e outros indicadores climáticos de forma clara e eficiente. | 2 |
+| US5 | Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar alertas climáticos gerados automaticamente quando uma medição ultrapassar um limite configurado, para identificar possíveis situações de risco ou desastres naturais. | 2 |
+| US6 | Baixa | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 |
  
 <br>
 
@@ -51,21 +59,21 @@ O sistema contempla as seguintes funcionalidades principais:
 ## ✅ DoR e DoD
 ### DoR Definition of Ready
 Uma tarefa é considerada **pronta para ser iniciada** quando:
-- [x] História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício esperado]”.
-- [x] Dados de teste definidos.
-- [x] Mockups ou fluxos UX disponíveis.
-- [x] Regras de negócio claras.
-- [x] Estimada pela equipe (Story Points definidos).
-- [x] Critérios de aceitação definidos.
+- História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício esperado]”.
+- Dados de teste definidos.
+- Mockups ou fluxos UX disponíveis.
+- Regras de negócio claras.
+- Estimada pela equipe (Story Points definidos).
+- Critérios de aceitação definidos.
 
 ### DoD Definition of Done
 Uma tarefa é considerada **pronta** quando:
-- [x] Código revisado e integrado.
-- [x] Testes unitários aprovados.
-- [x] Critérios de aceitação atendidos.
-- [x] Regras de negócio respeitadas.
-- [x] Documentação atualizada.
-- [x] Interface implementada conforme mockups.
+- Código revisado e integrado.
+- Testes unitários aprovados.
+- Critérios de aceitação atendidos.
+- Regras de negócio respeitadas.
+- Documentação atualizada.
+- Interface implementada conforme mockups.
 
 <br>
 
