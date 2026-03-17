@@ -19,11 +19,9 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
  
 A empresa Tecsus busca expandir suas soluções de IoT para o monitoramento ambiental por meio de estações meteorológicas de baixo custo. Entretanto, para que os dados coletados por essas estações sejam úteis, é necessário um sistema capaz de receber, armazenar, processar e disponibilizar essas informações de forma organizada e acessível.
 
-O Sistema de Coleta de Dados de Estações Meteorológicos foi desenvolvido para atender essa necessidade, permitindo a coleta automatizada de dados provenientes de sensores instalados em estações meteorológicas e sua disponibilização em um sistema web com dashboards e relatórios analíticos.
+O Sistema de Coleta de Dados de Estações Meteorológicos foi desenvolvido para atender essa necessidade, permitindo a coleta automatizada de dados provenientes de sensores instalados em estações meteorológicas e sua disponibilização em um sistema web com dashboards e relatórios.
 
 A solução é direcionada principalmente a **órgãos públicos**, como instituições governamentais responsáveis pela Defesa Civil e gestão de riscos de desastres naturais, que necessitam de monitoramento climático confiável para apoiar a tomada de decisões.
-
-Baseado na Metodologia Ágil SCRUM e no ciclo CDIO (Conceber, Desenvolver, Implementar e Operar), o projeto integra conceitos de IoT, processamento de dados e visualização de informações, garantindo uma solução escalável e eficiente para o monitoramento ambiental.
 
 <br>
 
@@ -60,17 +58,16 @@ Baseado na Metodologia Ágil SCRUM e no ciclo CDIO (Conceber, Desenvolver, Imple
 
 | ID  | Prioridade | User Story | Sprint | Story Points |
 |-----|------------|------------|--------|--------------|
-| US1 | Alta | Eu como **ADMINISTRADOR**, desejo realizar login na área administrativa do sistema, para acessar e gerenciar as funcionalidades administrativas da plataforma, garantindo que apenas usuários autorizados possam realizar alterações no sistema. | 1 | 13 |
-| US2 | Alta | Eu como **ADMINISTRADOR**, desejo cadastrar estações meteorológicas, para registrar os locais de coleta de dados climáticos. | 1 | 8 |
-| US3 | Alta | Eu como **ADMINISTRADOR**, desejo configurar parâmetros meteorológicos e seus limites, para definir quais variáveis ambientais serão monitoradas e identificar condições climáticas de risco. | 1 | 8 |
-| US4 | Alta | Eu como **ADMINISTRADOR**, desejo cadastrar novos administradores no sistema para permitir que outros usuários autorizados possam gerenciar a plataforma. | 1 | 8 |
-| US5| Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar as métricas das regiões cadastradas, para acompanhar e analisar as condições climáticas de cada local monitorado. | 2 | 8 |
-| US6 | Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar alertas climáticos gerados automaticamente quando uma medição ultrapassar um limite configurado, para identificar possíveis situações de risco ou desastres naturais. | 2 | 5 |
-| US7 | Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar dashboards com dados organizados por parâmetro e apresentados em gráficos e cards, para analisar variações de temperatura, umidade e outros indicadores climáticos de forma clara e eficiente. | 2 | 8 |
-| US8 | Média | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar as estações meteorológicas em um mapa para identificar facilmente a localização geográfica dos pontos de coleta de dados climáticos. | 2 | 13 |
-| US9 | Baixa | Eu como **USUÁRIO DO SISTEMA**, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
-| US10 | Baixa | Eu como **ADMINISTRADOR**, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
-| US11 | Baixa | Eu como **ADMINISTRADOR**, desejo editar meu perfil administrativo para manter minhas informações atualizadas no sistema. | 3 | 5 |
+| US1 | Alta | Eu como administrador, desejo realizar login na área administrativa do sistema, para acessar e gerenciar as funcionalidades administrativas da plataforma, garantindo que apenas usuários autorizados possam realizar alterações no sistema. | 1 | 13 |
+| US2 | Alta | Eu como administrador, desejo cadastrar estações meteorológicas, para registrar os locais de coleta de dados climáticos. | 1 | 8 |
+| US3 | Alta | Eu como administrador, desejo configurar parâmetros meteorológicos e seus limites, para definir quais variáveis ambientais serão monitoradas e identificar condições climáticas de risco. | 1 | 8 |
+| US4 | Alta | Eu como administrador, desejo cadastrar novos administradores no sistema para permitir que outros usuários autorizados possam gerenciar a plataforma. | 1 | 8 |
+| US5| Média | Eu como usuário do sistema, desejo visualizar as métricas das regiões cadastradas, para acompanhar e analisar as condições climáticas de cada local monitorado. | 2 | 8 |
+| US6 | Média | Eu como usuário do sistema, desejo visualizar alertas climáticos gerados automaticamente quando uma medição ultrapassar um limite configurado, para identificar possíveis situações de risco ou desastres naturais. | 2 | 5 |
+| US7 | Média | Eu como usuário do sistema, desejo visualizar dashboards com dados organizados por parâmetro e apresentados em gráficos e cards, para analisar variações de temperatura, umidade e outros indicadores climáticos de forma clara e eficiente. | 2 | 8 |
+| US8 | Baixa | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
+| US9 | Baixa | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
+| US10 | Baixa | Eu como administrador, desejo editar meu perfil administrativo para manter minhas informações atualizadas no sistema. | 3 | 5 |
  
 <br>
 
@@ -145,7 +142,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 Os commits são realizados de forma **frequente** e com mensagens escritas **no modo imperativo**, descrevendo de forma direta as alterações realizadas no código:
 - ```feat:``` para adicionar uma funcionalidade ao sistema (`feat: implementa cadastro de estações meteorológicas`).
-- ```fix:``` para corrigir um erro no sistema (`fix: corrige erro na exibição de temperatura no dashboard`).
+- ```fix:``` para corrigir um erro no sistema (`fix: corrige erro na exibição de parâmetros no dashboard`).
 - ```refactor:``` para refatorar o código (`refactor: reorganiza estrutura das rotas de estações meteorológicas`).
 - ```docs:``` para alterar ou adicionar documentação (`docs: adiciona requisitos funcionais no README`).
 
