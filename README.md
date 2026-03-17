@@ -15,7 +15,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="projeto">
 
 ## 📋 O Projeto
-> **📌 Status do Projeto: A iniciar**
+> **📌 Status do Projeto: Em andamento**
  
 A empresa Tecsus busca expandir suas soluções de IoT para o monitoramento ambiental por meio de estações meteorológicas de baixo custo. Entretanto, para que os dados coletados por essas estações sejam úteis, é necessário um sistema capaz de receber, armazenar, processar e disponibilizar essas informações de forma organizada e acessível.
 
