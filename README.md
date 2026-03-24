@@ -7,7 +7,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="sumario">
 
 <div align=center>
-<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href = "#branches-e-commits">Branches e Commits</a> | <a href ="#arquitetura">Arquitetura do Projeto</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
+<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href = "#branches-e-commits">Branches e Commits</a> | <a href ="#arquitetura">Arquitetura do Sistema</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
 </div>
 
 <br>
@@ -150,8 +150,11 @@ Os commits são realizados de forma **frequente** e com mensagens escritas **no 
 
 <span id="arquitetura">
 
-## 📐 Arquitetura do Projeto
-<img src="./docs-img/Estrutura do Projeto.jpg" alt="Estrutura do Projeto" width="100%" height="auto">
+## 📐 Arquitetura do Sistema
+<img src="./docs-img/Arquitetura-do-Sistema-Mínimo-Aceitável.jpeg" alt="Arquitetura do Sistema" width="100%" height="auto">
+
+Clique ao lado para visualizar mais detalhes da Arquitetura do Sistema →
+[Arquitetura do Sistema](https://github.com/GeneSys-fatec/API-4DSM/wiki/Arquitetura-do-Sistema)
 
 <br> 
 
