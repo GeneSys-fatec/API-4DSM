@@ -15,7 +15,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="projeto">
 
 ## 📋 O Projeto
-> **📌 Status do Projeto: Em andamento**
+> **Status do Projeto: Em andamento**
  
 A empresa Tecsus busca expandir suas soluções de IoT para o monitoramento ambiental por meio de estações meteorológicas de baixo custo. Entretanto, para que os dados coletados por essas estações sejam úteis, é necessário um sistema capaz de receber, armazenar, processar e disponibilizar essas informações de forma organizada e acessível.
 
@@ -54,7 +54,7 @@ A solução é direcionada principalmente a **órgãos públicos**, como institu
 
 <span id="backlog&userstories">
 
-## 🎯 Backlog do Produto & User Stories
+## 🎯 Backlog do Produto 
 
 | ID  | Prioridade | User Story | Sprint | Story Points |
 |-----|------------|------------|--------|--------------|
@@ -150,10 +150,12 @@ Os commits são realizados de forma **frequente** e com mensagens escritas **no 
 
 <span id="arquitetura">
 
-## 📐 Arquitetura do Sistema
-<img src="./docs/Arquitetura-do-Sistema-Mínimo-Aceitável.jpeg" alt="Arquitetura do Sistema" width="100%" height="auto">
+## ⚙️ Arquitetura do Sistema
+### Arquitetura Lógica
+<img src="./docs/Arquitetura Lógica do Projeto.jpg" alt="Arquitetura Lógica do Sistema" width="100%" height="auto">
 
-**Descrição:** Os dados são enviados pelas estações (ESP32) para um **receptor de dados**, que realiza a ingestão e armazena os dados brutos em um **banco NoSQL (MongoDB)** → o **backend**, integrado ao **processador de dados**, realiza a validação, transformação e persistência das informações no **banco relacional (PostgreSQL)** → o **frontend** consome a API do backend para exibir dashboards interativos e relatórios analíticos ao usuário, respeitando o sistema de controle de acesso.
+### Arquitetura Física
+<img src="./docs/Arquitetura Física do Projeto.jpg" alt="Arquitetura Física do Sistema" width="100%" height="auto">
 
 **:link: Clique no link abaixo para visualizar mais detalhes da Arquitetura do Sistema:**
 > [Arquitetura do Sistema](https://github.com/GeneSys-fatec/API-4DSM/wiki/Arquitetura-do-Sistema)
