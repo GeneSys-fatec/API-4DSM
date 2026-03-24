@@ -7,7 +7,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="sumario">
 
 <div align=center>
-<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href = "#branches-e-commits">Branches e Commits</a> | <a href ="#arquitetura">Arquitetura do Sistema</a> | <a href ="#modelagem">Modelagem de Dados</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
+<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href ="#arquitetura">Arquitetura do Sistema</a> | <a href ="#modelagem">Modelagem de Dados</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
 </div>
 
 <br>
@@ -76,7 +76,7 @@ A solução é direcionada principalmente a **órgãos públicos**, como institu
 ## ✅ DoR e DoD
 ### DoR Definition of Ready
 Uma tarefa é considerada **pronta para ser iniciada** quando:
-- História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício esperado]”.
+- História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício]”.
 - Dados de teste definidos.
 - Mockups ou fluxos UX disponíveis.
 - Regras de negócio claras.
@@ -126,25 +126,6 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 ![Jira](https://img.shields.io/badge/Jira-20232A?style=for-the-badge&logo=jira&logoColor=0052CC)
 ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma&logoColor=F24E1E)
 ![Swagger](https://img.shields.io/badge/Swagger-20232A?style=for-the-badge&logo=swagger&logoColor=85EA2D)
-
-<br>
-
-<span id="branches-e-commits">
-
-## 🌿 Padrão de Branches e Commits
-
-| Branch | Descrição |
-|------------|------------|
-| **GEN-001** | Branch criada para o **desenvolvimento de uma tarefa** → utilizada para implementar uma funcionalidade ou correção. |
-| **develop** | Branch principal de **desenvolvimento** → utilizada para integrar as funcionalidades concluídas pelas branches de tarefa. |
-| **release** | Criada a partir da `develop` → utilizada para testes finais, correções de bugs e ajustes antes do merge na `master`. |
-| **master** | Branch principal de **produção** → versão estável e pronta para uso do sistema. |
-
-Os commits são realizados de forma **frequente** e com mensagens escritas **no modo imperativo**, descrevendo de forma direta as alterações realizadas no código:
-- ```feat:``` para adicionar uma funcionalidade ao sistema (`feat: implementa cadastro de estações meteorológicas`).
-- ```fix:``` para corrigir um erro no sistema (`fix: corrige erro na exibição de parâmetros no dashboard`).
-- ```refactor:``` para refatorar o código (`refactor: reorganiza estrutura das rotas de estações meteorológicas`).
-- ```docs:``` para alterar ou adicionar documentação (`docs: adiciona requisitos funcionais no README`).
 
 <br>
 
