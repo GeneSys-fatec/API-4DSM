@@ -7,7 +7,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="sumario">
 
 <div align=center>
-<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href = "#branches-e-commits">Branches e Commits</a> | <a href ="#arquitetura">Arquitetura do Sistema</a> | <a href ="#modelagem">Modelagem de Dados</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
+<a href ="#projeto">Projeto</a> | <a href ="#requisitosfuncionais">Requisitos Funcionais</a> | <a href ="#requisitosnaofuncionais">Requisitos Não Funcionais</a> | <a href ="#backlog&userstories">Backlog do Produto</a> | <a href ="#dor-dod">DoR e DoD</a> | <a href ="#sprints">Sprints</a> | <a href ="#tecnologias">Tecnologias</a> | <a href ="#arquitetura">Arquitetura do Sistema</a> | <a href ="#modelagem">Modelagem de Dados</a> | <a href ="#instalacao">Guia de Instalação</a> | <a href ="#equipe">Equipe</a>
 </div>
 
 <br>
@@ -15,7 +15,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="projeto">
 
 ## 📋 O Projeto
-> **📌 Status do Projeto: Em andamento**
+> **Status do Projeto: Em andamento**
  
 A empresa Tecsus busca expandir suas soluções de IoT para o monitoramento ambiental por meio de estações meteorológicas de baixo custo. Entretanto, para que os dados coletados por essas estações sejam úteis, é necessário um sistema capaz de receber, armazenar, processar e disponibilizar essas informações de forma organizada e acessível.
 
@@ -54,7 +54,7 @@ A solução é direcionada principalmente a **órgãos públicos**, como institu
 
 <span id="backlog&userstories">
 
-## 🎯 Backlog do Produto & User Stories
+## 🎯 Backlog do Produto 
 
 | ID  | Prioridade | User Story | Sprint | Story Points |
 |-----|------------|------------|--------|--------------|
@@ -76,7 +76,7 @@ A solução é direcionada principalmente a **órgãos públicos**, como institu
 ## ✅ DoR e DoD
 ### DoR Definition of Ready
 Uma tarefa é considerada **pronta para ser iniciada** quando:
-- História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício esperado]”.
+- História bem definida e escrita no formato: “Como [tipo de usuário], quero [funcionalidade], para [benefício]”.
 - Dados de teste definidos.
 - Mockups ou fluxos UX disponíveis.
 - Regras de negócio claras.
@@ -129,31 +129,14 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 <br>
 
-<span id="branches-e-commits">
-
-## 🌿 Padrão de Branches e Commits
-
-| Branch | Descrição |
-|------------|------------|
-| **GEN-001** | Branch criada para o **desenvolvimento de uma tarefa** → utilizada para implementar uma funcionalidade ou correção. |
-| **develop** | Branch principal de **desenvolvimento** → utilizada para integrar as funcionalidades concluídas pelas branches de tarefa. |
-| **release** | Criada a partir da `develop` → utilizada para testes finais, correções de bugs e ajustes antes do merge na `master`. |
-| **master** | Branch principal de **produção** → versão estável e pronta para uso do sistema. |
-
-Os commits são realizados de forma **frequente** e com mensagens escritas **no modo imperativo**, descrevendo de forma direta as alterações realizadas no código:
-- ```feat:``` para adicionar uma funcionalidade ao sistema (`feat: implementa cadastro de estações meteorológicas`).
-- ```fix:``` para corrigir um erro no sistema (`fix: corrige erro na exibição de parâmetros no dashboard`).
-- ```refactor:``` para refatorar o código (`refactor: reorganiza estrutura das rotas de estações meteorológicas`).
-- ```docs:``` para alterar ou adicionar documentação (`docs: adiciona requisitos funcionais no README`).
-
-<br>
-
 <span id="arquitetura">
 
-## 📐 Arquitetura do Sistema
-<img src="./docs/Arquitetura-do-Sistema-Mínimo-Aceitável.jpeg" alt="Arquitetura do Sistema" width="100%" height="auto">
+## ⚙️ Arquitetura do Sistema
+### Arquitetura Lógica
+<img src="./docs/Arquitetura Lógica do Projeto.jpg" alt="Arquitetura Lógica do Sistema" width="100%" height="auto">
 
-**Descrição:** Os dados são enviados pelas estações (ESP32) para um **receptor de dados**, que realiza a ingestão e armazena os dados brutos em um **banco NoSQL (MongoDB)** → o **backend**, integrado ao **processador de dados**, realiza a validação, transformação e persistência das informações no **banco relacional (PostgreSQL)** → o **frontend** consome a API do backend para exibir dashboards interativos e relatórios analíticos ao usuário, respeitando o sistema de controle de acesso.
+### Arquitetura Física
+<img src="./docs/Arquitetura Física do Projeto.jpg" alt="Arquitetura Física do Sistema" width="100%" height="auto">
 
 **:link: Clique no link abaixo para visualizar mais detalhes da Arquitetura do Sistema:**
 > [Arquitetura do Sistema](https://github.com/GeneSys-fatec/API-4DSM/wiki/Arquitetura-do-Sistema)
