@@ -99,7 +99,7 @@ Uma tarefa é considerada **pronta** quando:
 ## 📅 Sprints
 Sprint | Previsão | Status | Relatório | Vídeo do Projeto |
 |------|--------|------|---------|----------|
-|01 | 16/03/2026 - 05/04/2026 |⏳ Em andamento| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
+|01 | 16/03/2026 - 05/04/2026 |⏳ Em andamento| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/wiki/Entregáveis-Sprint-1) | <a href=''>Ver Vídeo</a> |
 |02|  13/04/2026 - 03/05/2026 |⏳ A iniciar| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
 |03| 11/05/2026 - 31/05/2026 |⏳ A iniciar| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
 
@@ -154,6 +154,85 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 <span id="instalacao">
 
 ## ⬇ Guia de Instalação
+
+Este guia oferece instruções detalhadas sobre como baixar, configurar e executar este projeto em sua máquina local.
+
+### Pré-requisitos
+- **Node.js**: Ambiente de execução de JavaScript open-source. [Baixe o Node.js](https://nodejs.org/pt-br/download)
+- **VSCode**: Editor de código para visualização e edição do projeto. [Baixe o VSCode](https://code.visualstudio.com/download)
+- **PostgreSQL**: Banco de dados para armazenar informações necessárias ao sistema. [Baixe o PostgreSQL](https://www.postgresql.org/download/)
+
+---
+
+### Como Executar Localmente
+
+#### Passos para Executar o Backend
+
+**1. Clone o Repositório**
+
+```bash
+git clone https://github.com/GeneSys-fatec/API-4DSM-BACKEND.git
+```
+
+**2. Configuração e Execução do Backend**
+> Atualize a branch:
+```bash
+git pull origin master 
+```
+
+
+> Configure o `.env` do projeto:
+```bash
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+#DB_PASSWORD=[senhadb]
+#DB_DATABASE=[db_utilizado]
+#JWT_TOKEN=[secret_key] (32 caracteres)
+```
+
+
+> Instale as dependências do backend:
+```bash
+npm install
+```
+
+
+> Inicie o backend com o comando:
+```bash
+npm run dev
+```
+---
+
+####  Passos para Executar o Frontend
+
+**1. Clone o Repositório**
+
+```bash
+git clone https://github.com/GeneSys-fatec/API-4DSM-FRONTEND.git
+```
+
+**2. Configuração e Execução do Frontend**
+> Atualize a branch:
+```bash
+git pull origin master 
+```
+
+
+> Instale as dependências do frontend:
+  ```bash
+  npm install 
+  ```
+
+
+> Inicie o frontend com o comando:
+  ```bash
+  npm run dev
+  ```
+
+
+#### 3. Acessando a Aplicação
+> No terminal, copie o link que aparece e abra-o no navegador de sua preferência para acessar a aplicação.
 
 <br>
 
