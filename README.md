@@ -121,7 +121,6 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 ![MongoDB](https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=4EA94B)
 ![C](https://img.shields.io/badge/C-20232A?style=for-the-badge&logo=c&logoColor=00599C)
 ![ESP32](https://img.shields.io/badge/ESP32-20232A?style=for-the-badge&logo=espressif&logoColor=E7352C)
-![Docker](https://img.shields.io/badge/Docker-20232A?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Git](https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032)
 ![Jira](https://img.shields.io/badge/Jira-20232A?style=for-the-badge&logo=jira&logoColor=0052CC)
 ![Figma](https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma&logoColor=F24E1E)
