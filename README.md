@@ -99,7 +99,7 @@ Uma tarefa é considerada **pronta** quando:
 ## 📅 Sprints
 Sprint | Previsão | Status | Relatório | Vídeo do Projeto |
 |------|--------|------|---------|----------|
-|01 | 16/03/2026 - 05/04/2026 |⏳ Em andamento| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/wiki/Entregáveis-Sprint-1) | <a href=''>Ver Vídeo</a> |
+|01 | 16/03/2026 - 05/04/2026 |✅ Concluído| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/wiki/Entregáveis-Sprint-1) | <a href='https://youtu.be/m4sEB9klfE4'>Ver Vídeo</a> |
 |02|  13/04/2026 - 03/05/2026 |⏳ A iniciar| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
 |03| 11/05/2026 - 31/05/2026 |⏳ A iniciar| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
 
