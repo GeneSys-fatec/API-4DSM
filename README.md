@@ -68,6 +68,9 @@ A solução é direcionada principalmente a **órgãos públicos**, como institu
 | US8 | Baixa | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
 | US9 | Baixa | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
 | US10 | Baixa | Eu como administrador, desejo editar meu perfil administrativo para manter minhas informações atualizadas no sistema. | 3 | 5 |
+
+**:link: Clique no link abaixo para visualizar mais detalhes do Backlog do Produto:** 
+> [Backlog do Produto](./docs/Backlog-do-Produto.pdf)
  
 <br>
 
@@ -100,7 +103,7 @@ Uma tarefa é considerada **pronta** quando:
 Sprint | Previsão | Status | Relatório | Vídeo do Projeto |
 |------|--------|------|---------|----------|
 |01 | 16/03/2026 - 05/04/2026 |✅ Concluído| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/wiki/Entregáveis-Sprint-1) | <a href='https://youtu.be/m4sEB9klfE4'>Ver Vídeo</a> |
-|02|  13/04/2026 - 03/05/2026 |⏳ Em andamento| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
+|02|  13/04/2026 - 03/05/2026 |⏳ Em andamento| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/wiki/Entregáveis-Sprint-2) | <a href=''>Ver Vídeo</a> |
 |03| 11/05/2026 - 31/05/2026 |⏳ A iniciar| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
 
 <br>
@@ -132,10 +135,10 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 ## ⚙️ Arquitetura do Sistema
 ### Arquitetura Lógica
-<img src="./docs/Arquitetura Lógica - API.jpg" alt="Arquitetura Lógica do Sistema" width="100%" height="auto">
+<img src="./docs/Arquitetura-Lógica.jpg" alt="Arquitetura-Lógica-do-Sistema" width="100%" height="auto">
 
 ### Arquitetura Física
-<img src="./docs/Arquitetura Física - API.jpg" alt="Arquitetura Física do Sistema" width="100%" height="auto">
+<img src="./docs/Arquitetura-Física.jpg" alt="Arquitetura-Física-do-Sistema" width="100%" height="auto">
 
 **:link: Clique no link abaixo para visualizar mais detalhes da Arquitetura do Sistema:**
 > [Arquitetura do Sistema](https://github.com/GeneSys-fatec/API-4DSM/wiki/Arquitetura-do-Sistema)
@@ -245,7 +248,7 @@ git pull origin master
 | Team Member | Ana Júlia Gaspar |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ana-gaspar-957775325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/anajgaspar)        |
 | Team Member |   Emmanuel Yokoyama         |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuelyokoyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/EmmanuelJYokoyama)              |
 | Team Member  | Gabriel Calebe |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-516ab3325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gbmedeiros00)          |
-| Team Member |   Gabriel Robert       |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()              |
+| Team Member |   Gabriel Robert (_interrompido_)      |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()              |
 | Team Member |   Giovanni Kanjiscuk      |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giovanni-kanjiscuk/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GKanjiscuk)              |
 | Team Member | Francisco Rafael Pires |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/franciscorafaelpires)          |
 
