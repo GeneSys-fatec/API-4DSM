@@ -25,8 +25,8 @@ O principal objetivo desta sprint foi estruturar o fluxo completo de recebimento
 | ID  | Requisito | Prioridade | User Story | Sprint | Story Points |
 |-----|-----------|------------|------------|--------|--------------|
 | US8 | RF05 | Alta | Eu, como usuário do sistema, desejo receber  notificações de alerta para ser informado sobre informações e atualizações importantes. | 3 | 8 |
-| US9 | RF04 | Alta | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
-| US10 | RF08 | Média | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
+| US9 | RF04 | Média | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
+| US10 | RF08 | Baixa | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
 
 <br>
 
@@ -37,13 +37,15 @@ Veja a entrega da terceira sprint a seguir:
 
 **MVP da Sprint 3**
 
-> <a href=''>Vídeo do Projeto</a>
+> <a href='https://youtu.be/kyvMQxyqnBQ'>Vídeo do Projeto</a>
 
 <br>
 
 ## 📈 Métricas do Time
 
 O acompanhamento de atividades, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe, onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo, incluindo as atividades desenvolvidas e seus responsáveis.
+
+<img width="1547" height="748" alt="image" src="https://github.com/user-attachments/assets/600df810-1e35-4189-9ac4-eb96f2062f63" />
 
 
 ---
