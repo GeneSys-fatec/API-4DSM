@@ -15,7 +15,7 @@ Projeto desenvolvido com base na Metodologia Ágil SCRUM, promovendo a colabora�
 <span id="projeto">
 
 ## 📋 O Projeto
-> **Status do Projeto: Em andamento**
+> **Status do Projeto: Concluído**
  
 A empresa Tecsus busca expandir suas soluções de IoT para o monitoramento ambiental por meio de estações meteorológicas de baixo custo. Entretanto, para que os dados coletados por essas estações sejam úteis, é necessário um sistema capaz de receber, armazenar, processar e disponibilizar essas informações de forma organizada e acessível.
 
@@ -104,7 +104,7 @@ Sprint | Previsão | Status | Relatório | Vídeo do Projeto |
 |------|--------|------|---------|----------|
 |01 | 16/03/2026 - 05/04/2026 |✅ Concluído| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/tree/docs-sprint-1#sprint-1-16032026---05042026) | <a href='https://youtu.be/m4sEB9klfE4'>Ver Vídeo</a> |
 |02|  13/04/2026 - 03/05/2026 |✅ Concluído| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/tree/docs-sprint-2#sprint-2-13042026---03052026) | <a href='https://youtu.be/mbkQFutfMhY'>Ver Vídeo</a> |
-|03| 11/05/2026 - 31/05/2026 |⏳ Em andamento| [Ver Relatório]() | <a href=''>Ver Vídeo</a> |
+|03| 11/05/2026 - 31/05/2026 |✅ Concluído| [Ver Relatório](https://github.com/GeneSys-fatec/API-4DSM/tree/docs-sprint-3#sprint-3-11052026---31052026) | <a href='https://youtu.be/kyvMQxyqnBQ'>Ver Vídeo</a> |
 
 <br>
 
@@ -236,6 +236,8 @@ git pull origin master
 #### 3. Acessando a Aplicação
 > No terminal, copie o link que aparece e abra-o no navegador de sua preferência para acessar a aplicação.
 
+---
+
 <br>
 
 <span id="equipe">
@@ -251,6 +253,7 @@ git pull origin master
 | Team Member |   Gabriel Robert (_interrompido_)      |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()              |
 | Team Member |   Giovanni Kanjiscuk      |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giovanni-kanjiscuk/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GKanjiscuk)              |
 | Team Member | Francisco Rafael Pires |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/franciscorafaelpires)          |
+| Team Member | Tatiane Oliveira |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/tatiane-oliveira-332155377/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/TatianeOliveira8)          |
 
 <br>
 
