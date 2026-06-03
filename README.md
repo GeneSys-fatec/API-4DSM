@@ -24,9 +24,10 @@ O principal objetivo desta sprint foi estruturar o fluxo completo de recebimento
 
 | ID  | Requisito | Prioridade | User Story | Sprint | Story Points |
 |-----|-----------|------------|------------|--------|--------------|
-| US8 | RF05 | Alta | Eu, como usuário do sistema, desejo receber  notificações de alerta para ser informado sobre informações e atualizações importantes. | 3 | 8 |
-| US9 | RF04 | Média | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
-| US10 | RF08 | Baixa | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
+| US8 | RF07 | Alta | Eu, como administrador, desejo cadastrar e configurar uma estação meteorológica física, para que os dados ambientais possam ser coletados e enviados automaticamente ao sistema para monitoramento e análise. | 3 | 8 |
+| US9 | RF05 | Alta | Eu, como usuário do sistema, desejo receber notificações de alerta automaticamente quando um parâmetro meteorológico de uma estação ultrapassar os limites configurados, para que eu possa ser informado sobre condições meteorológicas críticas e tomar as devidas providências. | 3 | 8 |
+| US10 | RF04 | Média | Eu como administrador, desejo gerar relatórios com dados meteorológicos coletados pelo sistema, para analisar informações climáticas e apoiar tomadas de decisão em situações de risco. | 3 | 5 |
+| US11 | RF08 | Baixa | Eu como usuário do sistema, desejo visualizar guias explicativos sobre os parâmetros meteorológicos, para entender o significado das medições apresentadas. | 3 | 5 |
 
 <br>
 
